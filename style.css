@@ -1,0 +1,41 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+#container {
+  height: 100%;
+  width: 100%;
+}
+#svg {
+  position: absolute;
+  z-index: 2;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  mix-blend-mode: multiply;
+}
+.shape {
+  fill: #2F7999;
+}
+#background-image {
+    width: 292px;
+    height: 306px;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.jscolor {
+  position: fixed;
+  top: 400px;
+  left: 50px;
+  z-index: 3;
+  padding: 1em;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
